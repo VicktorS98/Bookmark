@@ -413,6 +413,9 @@ nav.active {
 
 
 /* ------- section QandA ------- */
+.QandA-section {
+  margin-bottom: 2rem;
+}
 .accordion {
   text-align: left;
 }
