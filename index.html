@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bookmark extension challenge</title>
+  <link rel="shortcut icon" href="#" type="image/x-icon">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;900&display=swap" rel="stylesheet"> 
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="index.js" defer></script>
+</head>
+<body>
+  <section class="navigation-bar-section my-container">
+        <div class="logo-and-toggle logo-toggle-1">
+          <img class="logo" src="images/logo-bookmark.svg" alt="">
+          <img class="toggle" src="images/icon-hamburger.svg" alt="">
+        </div>
+        <nav>
+          <div class="logo-and-toggle">
+            <img class="logo logo-nav-abierto" src="images/logo-bookmark.svg" alt="">
+            <img class="toggle toggle-close" src="images/icon-close.svg" alt="">
+          </div>
+          <div class="links-container">
+            <a href="#features" class="link-nav transition-color a-features">Características</a>
+            <a href="#" class="link-nav transition-color a-pricing">Precios</a>
+            <a href="#" class="link-nav transition-color a-contact">Contacto</a>
+            <a href="#" class="button-iniciar-sesion link-nav">Iniciar Sesión</a>
+          </div>
+          <div class="nav-socials">
+            <img src="images/icon-twitter.svg" alt="">
+            <img src="images/icon-facebook.svg" alt="">
+          </div>
+        </nav>
+  </section>
+
+  <main>
+    <section class="hero-section my-container">
+      <div class="hero">
+        <div class="hero-image">
+          <img src="images/illustration-hero.svg" alt="">
+        </div>
+        <div class="hero-text margin-bottom-all-1">
+          <h1 class="section-title">Un administrador de bookmarks simple</h1>
+          <p class="section-p p-hero">Una interfaz limpia y simple para organizar tus páginas web favoritas. Abrí una nueva pestaña y mirá cómo tus páginas se abren al instante. Probalo gratis.</p>
+          <div class="button-get-container">
+            <button class="get-it-btn button-blue">Descarga en Chrome</button>
+            <button class="get-it-btn button-alt">Descarga en Firefox</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="features" class="features-section my-container">
+      <div class="features-text margin-bottom-all-05">
+        <h2 class="section-title">Características</h2>
+        <p class="section-p">Nuestro objetivo es crear un acceso rápido a todas tus páginas web favoritas. Tus bookmarks se sincronizan entre tus dispositivos para que puedas tener acceso a ellas desde cualquier lugar!</p>
+      </div>
+      <div class="tabs">
+        <button class="tab tab-1">Señala simple</button>
+        <button class="tab tab-2">Búsqueda rápida</button>
+        <button class="tab tab-3">Compartir fácil</button>
+      </div>
+      <div class="card-container">
+        <div class="cards card-señala">
+          <img src="images/illustration-features-tab-1.svg" alt="">
+          <div class="card-text margin-bottom-all-05">
+            <h2 class="card-title">Señala con un click</h2>
+            <p class="card-p">Organiza tus bookmarks como quieras. Nuestra función de arrastrar y soltar te da control completo sobre cómo quieres administrar tus sitios favoritos.</p>
+            <button class="button-more-info button-blue">Más información</button>
+          </div>
+        </div> 
+        <hr> 
+        <div class="cards card-busqueda">
+          <img src="images/illustration-features-tab-2.svg" alt="">
+          <div class="card-text margin-bottom-all-05">
+            <h2 class="card-title">Búsqueda inteligente</h2>
+            <p class="card-p">Nuestra poderosa búsqueda inteligente te ayudará a encontrar bookmarks guardados en instantes, sin necesidad de buscar entre todo lo guardado.</p>
+            <button class="button-more-info button-blue">Más información</button>
+          </div>
+        </div>
+        <hr>
+        <div class="cards card-compartir">
+          <img src="images/illustration-features-tab-3.svg" alt="">
+          <div class="card-text margin-bottom-all-05">
+            <h2 class="card-title">Comparte tus bookmarks</h2>
+            <p class="card-p">Fácilmente comparte tus bookmarks y colecciones con otros usuarios de la extensión. Crea un link compartible que puedes mandar con tan solo presionar un botón.</p>
+            <button class="button-more-info button-blue">Más información</button>
+          </div>
+        </div>
+      </div>
+      
+    </section>
+
+    <section id="download" class="download-section my-container">
+      <div class="download-text margin-bottom-all-05 margin-bottom-2">
+        <h2 class="section-title">Descarga la extensión</h2>
+        <p class="section-p">Estamos trabajando en inlcuir más navegadores a nuestro repertorio. No dudes en avisarnos si tenés un navegador favorito que te gustaría que prioricemos!</p>
+      </div>
+      <div class="browser-cards">
+        <div class="chrome-card margin-bottom-all-1">
+          <img src="images/logo-chrome.svg" alt="">
+          <p>Versión mínima 62</p>
+          <button class="add-install button-blue">Instalar extensión</button>  
+        </div>
+        <div class="firefox-card margin-bottom-all-1">
+          <img src="images/logo-firefox.svg" alt="">
+          <p>Versión mínima 55</p>
+          <button class="add-install button-blue">Instalar extensión</button>
+        </div>
+        <div class="opera-card margin-bottom-all-1">
+          <img src="images/logo-opera.svg" alt="">
+          <p>Versión mínima 49</p>
+          <button class="add-install button-blue">Instalar extensión</button>
+        </div>
+
+      </div>
+    </section>
+
+    <section class="QandA-section my-container margin-bottom-all-1">
+      <div class="QandA-text margin-bottom-all-1">
+        <h2 class="section-title">Preguntas frequentes</h2>
+        <p class="section-p">Aquí hay algunas de las preguntas frecuentes. Si tienes alguna otra pregunta que no figure aquí, no dudes e mandarnos un email.</p>
+      </div>
+
+      <div class="accordion" id="accordionQandA">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingOne">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+              ¿Qué es Bookmark?
+            </button>
+          </h2>
+          <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne">
+            <div class="accordion-body">
+              <p class="answer">Bookmark es una aplicación para poner marcadores a tus páginas favoritas, para guardarlas y compartirlas con facilidad.</p>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingTwo">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              ¿Cómo pido el soporte para un nuevo navegador?
+            </button>
+          </h2>
+          <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo">
+            <div class="accordion-body">
+              <p class="answer">Mándanos un mail a <a class="bookmark-gmail">bookmark@gmail.com</a> contándonos tu experiencia con el navegador, y lo revisaremos!</p>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingThree">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              ¿Hay una aplicación para celular?
+            </button>
+          </h2>
+          <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree">
+            <div class="accordion-body">
+              <p class="answer">Por el momento, no. Pero estamos por empezar a trabajar en ello! Con suerte habrá una aplicación para el año que viene.</p>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingFour">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+              ¿Y otros navegadores basados en Chromium?
+            </button>
+          </h2>
+          <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour">
+            <div class="accordion-body">
+              <p class="answer">Si está basado en Chromium, la extensión funcionará!</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button class="button-more-info button-blue">Más información</button>
+    </section>
+
+  </main>
+
+    <section class="cta">
+      <div class="cta-container my-container">
+        <p class="h4">+35.000 usuarios</p>
+        <h2 class="cta-title margin-bottom-2">Matenete al tanto de nuestras actualizaciones / productos</h2>
+        <div class="email-and-submit">
+          <input type="text" placeholder="Ingresa tu email">
+          <button class="button-contact-us button-salmon">Inscribirse</button>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer-section">
+      <div class="footer-content my-container">
+        <img src="images/logo-bookmark.svg" alt="" class="logo">
+        <div class="footer-links">
+          <a href="#" class="footer-link">Características</a>
+          <a href="#" class="footer-link">Precio</a>
+          <a href="#" class="footer-link">Contacto</a>
+        </div>
+        <div class="footer-socials">
+          <a class="social-icon" href="https://twitter.com"><img src="images/icon-twitter.svg" alt=""></a>
+          <a class="social-icon" href="https://facebook.com"><img src="images/icon-facebook.svg" alt=""></a>
+        </div>
+      </div>
+    </footer>
+
+
+    
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+</body>
+</html>
