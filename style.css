@@ -90,7 +90,7 @@ img {
 }
 
 section + section {
-  margin-top: 7rem;
+  margin-top: 5rem;
 }
 
 /* ------- estilos generales -------- */
@@ -338,6 +338,10 @@ nav.active {
   position: relative;
 }
 
+.hero-image img {
+  width: 80%;
+}
+
 .hero-image::after {
   content: "";
   position: absolute;
@@ -352,7 +356,7 @@ nav.active {
 }
 
 .hero-text {
-  margin-top: 4rem;
+  margin-top: 2rem;
 }
 
 .button-get-container {
@@ -487,7 +491,7 @@ footer .logo {
   padding: 0.5em 0;
   font-weight: 600;
   transition: color 350ms ease-in-out;
-  font-size: var(--fs-navbar);
+  font-size: var(--fs-5);
 }
 
 .footer-link:hover,
@@ -495,7 +499,7 @@ footer .logo {
   color: var(--clr-salmon);
 }
 
-.social-icon {
+.social-icon:not(:first-child) {
   margin-left: 0.8rem;
 }
 
