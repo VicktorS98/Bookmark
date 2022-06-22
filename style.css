@@ -313,7 +313,7 @@ nav.active {
 .nav-socials {
   position: absolute;
   left: 50%;
-  top:80%;
+  top: 75%;
   transform: translateX(-50%);
 }
 
